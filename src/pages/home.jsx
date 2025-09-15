@@ -45,7 +45,7 @@ const HomePage = ({
   return (
     <>
       <h1>🚀 Crypto Currency</h1>
-      {loading && <p>Loading ....</p>}
+      {loading && <Spinner color={"white "}></Spinner>}
       {error && <div className="error">{error}</div>}
       <div className="top-controls">
         <FilterInput filter={filter} onFilterChange={setFilter}></FilterInput>
