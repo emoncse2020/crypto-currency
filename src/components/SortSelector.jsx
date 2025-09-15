@@ -12,8 +12,8 @@ const SortSelector = ({ sortBy, onSortChange }) => {
         <option value="market_cap_asc">Market Cap (Low to High)</option>
         <option value="price_desc">Price (High to Low)</option>
         <option value="price_asc">Price (Low to High)</option>
-        <option value="change_desc">Price (High to Low)</option>
-        <option value="change_asc">Price (Low to High)</option>
+        <option value="change_desc">Change (High to Low)</option>
+        <option value="change_asc">Change (Low to High)</option>
       </select>
     </div>
   );
